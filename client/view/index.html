@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sign Up and Login </title>
+    </head>
+    <body>
+        <form id="register-form"> 
+            <p>Sign Up:</p>
+            <label for = "name1">Enter Fullname:</label>
+            <input id="name1" type="text" placeholder="Fullname" value=""/>
+                <br></br>
+            <label for = "pw">Enter Password:</label>
+            <input id="pw" type="password" placeholder="Password" value=""/>
+                 <br></br>
+            <label for="email">Enter email:</label>
+            <input id="email" type="email" placeholder="abc@mail.dk">
+                 <br></br>
+            <label for="Birthday">Enter Birthday: </label>
+            <input type="date" id="birthday">
+                <br></br>
+            <p>Select your gender:</p>
+            <input type="radio" name="gender" value="Female" id="option 1">
+            <label for="option 1">Female</label>
+            <input type="radio" name="gender" value="Male" id="option 2">
+            <label for="option2">Male</label>
+            <input type="radio" name="gender" value="Other" id="option 3">
+            <label for="option 3">Other</label>
+                <br></br>
+            
+
+            <input id="rgstr_btn" type="submit" value="Submit account" onClick="store()"/> 
+            <br></br>
+        </form>
+
+        <form id="login-form"> 
+            <p>Login:</p>
+            <input id="userName" type="text" placeholder="Enter Username" value=""/>
+                <br></br>
+            <input id="userPw" type="password" placeholder="Enter Password" value=""/>
+                <br></br>
+            <input id="login_btn" type="submit" value="Login" onClick="check()"/> 
+       </form>
+
+    <script type="text/javascript" src="jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" language="javascript" src="/storage /localStorage.js"></script>
+
+    </body>
+</html>
