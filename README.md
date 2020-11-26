@@ -1,3 +1,0 @@
-# Eksamensopgave
-# Eksamensopgave
-# Eksamensopgave
