@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration and Login </title>
+        <link rel="stylesheet" href="stylesheet.css">
+    </head>
+    <body>
+        <div class="container" id="container"
+        <div class="form-container sign-up-container"
+        <form id="register-form"> 
+            <h1>Create account:</h1>
+            <label for = "fname">Enter Firstname:</label>
+            <input id="fname" type="text" placeholder="Firstname" value=""/>
+                <br></br>
+            <label for = "lname">Enter Lastname:</label>
+            <input id="lname" type="text" placeholder="Lastname" value=""/>
+                <br></br>
+            <label for = "pw">Enter Password:</label>
+            <input id="pw" type="password" placeholder="Password" value=""/>
+                 <br></br>
+            <label for="email">Enter email:</label>
+            <input id="email" type="email" placeholder="abc@mail.dk">
+                 <br></br>
+            <label for="Birthday">Enter Birthday: </label>
+            <input type="date" id="birthday">
+                <br></br>
+            <p>Select your gender:</p>
+            <input type="radio" name="gender" value="female" id="female">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" value="male" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" value="other" id="other">
+            <label for="other">Other</label>
+                <br></br>
+            <p>Select your interest:</p>
+            <input type="radio" name="interest" value="Female" id="Female">
+            <label for="female">Female</label>
+            <input type="radio" name="interest" value="Male" id="Male">
+            <label for="male">Male</label>
+            <input type="radio" name="interest" value="Other" id="Other">
+            <label for="other">Other</label>
+            <br></br>
+            <input id="rgstr_btn" type="submit" value="Submit account" onClick="store()"/> 
+            <br></br>
+        </form>
+        </div> 
+        <div class="form-container sign-in-container"
+        <form id="login-form"> 
+            <h1>Login:</h1>
+            <input id="useremail" type="email" placeholder="Enter email" value=""/>
+                <br></br>
+            <input id="userpassword" type="password" placeholder="Enter Password" value=""/>
+                <br></br>
+            <input id="login_btn" type="submit" value="Login" onClick="check()"/> 
+       </form>
+        </div>
+        </div>
+
+    <script type="text/javascript" language="javascript" src="/Users/Jennynovo/Desktop/Programmering/Eksamensopgave/storage/localstorage.js"></script>
+
+    </body>
+</html>

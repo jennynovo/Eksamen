@@ -3,9 +3,9 @@ const express = require('express');
 const server = express();
 const PORT = process.env.port || 4000; //her fortæller vi webserveren hvilken port den skal lytte til
 
-const user = require ('../client/model/user.js'); //henter user information - sti
+//const user = require ('../client/model/user.js'); //henter user information - sti
 
-//CRUD ENDPOINTS
+/*CRUD ENDPOINTS
 server.get("/user.js", (req, res) => { //henter information
     res.json(user)
  });
@@ -17,4 +17,8 @@ server.get("/user.js", (req, res) => { //henter information
  });
  server.delete("user.js", (req, res) => { //sletter user
     res.json(user)
- });
+ }); */
+
+ server.listen(PORT,
+ console.log("server running on http://localhost:"+PORT)
+ );
